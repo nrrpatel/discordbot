@@ -6,12 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrrpatel/discordbot.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrrpatel/discordbot/issues"
+  },
+  "homepage": "https://github.com/nrrpatel/discordbot#readme",
   "dependencies": {
-    "discord.js": "^14.0.1",
+    "discord.js": "^14.0.3",
     "dotenv": "^16.0.1",
-    "openai-api": "^1.3.1"
+    "openai": "^3.0.0",
+    "openai-api": "^1.3.1",
+    "typescript": "^4.7.4"
   }
 }
